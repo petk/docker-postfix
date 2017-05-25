@@ -1,0 +1,10 @@
+#!/bin/sh
+
+postconf -e myhostname="$MYHOSTNAME" \
+  smtputf8_enable="no" \
+  mynetworks="0.0.0.0/0" \
+  inet_interfaces="all" \
+  mydomain="$MYDOMAIN" \
+  mynetworks="127.0.0.0/8 172.29.0.0/16"
+
+exec "$@"
