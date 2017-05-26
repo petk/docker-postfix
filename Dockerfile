@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.6
 
 ENV MYHOSTNAME postfix
 ENV MYDOMAIN my.example.com
