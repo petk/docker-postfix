@@ -7,5 +7,8 @@ All notable changes to this project will be documented in this file. This projec
 
 ## [UNREALEASED] 2017-01-01
 
-* Initial commit
 * ...
+
+## [0.1.0] 2017-05-26
+
+* Initial commits
