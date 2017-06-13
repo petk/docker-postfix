@@ -1,6 +1,6 @@
 # Docker Postfix
 
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/petk/postfix/)
+[![Build Status](https://travis-ci.org/petk/docker-postfix.svg?branch=master)](https://travis-ci.org/petk/docker-postfix) [![Docker Automated build](https://img.shields.io/docker/automated/petk/postfix.svg)](https://hub.docker.com/r/petk/postfix/) [![MIT License](https://img.shields.io/github/license/petk/docker-postfix.svg?style=plastic "MIT License")](https://github.com/petk/docker-postfix/blob/master/LICENSE)
 
 Docker Image with Postfix Mail Server
 
@@ -36,6 +36,4 @@ services:
 
 ## License and Contributing
 
-[Contributions](https://github.com/petk/docker-postfix/blob/master/CONTRIBUTING.md)
-are most welcome. This repository is released under the
-[MIT license](https://github.com/petk/docker-postfix/blob/master/LICENSE).
+[Contributions](https://github.com/petk/docker-postfix/blob/master/CONTRIBUTING.md) are most welcome. This repository is released under the [MIT license](https://github.com/petk/docker-postfix/blob/master/LICENSE).
