@@ -1,6 +1,6 @@
 # Docker Postfix
 
-[![Build Status](https://travis-ci.org/petk/docker-postfix.svg?branch=master)](https://travis-ci.org/petk/docker-postfix) [![Docker Automated build](https://img.shields.io/docker/automated/petk/postfix.svg)](https://hub.docker.com/r/petk/postfix/) [![MIT License](https://img.shields.io/github/license/petk/docker-postfix.svg?style=plastic "MIT License")](https://github.com/petk/docker-postfix/blob/master/LICENSE) [![Image size](https://images.microbadger.com/badges/image/petk/postfix.svg)](https://microbadger.com/images/petk/postfix "Image size")
+[![Build Status](https://travis-ci.org/petk/docker-postfix.svg?branch=master)](https://travis-ci.org/petk/docker-postfix) [![Docker Automated build](https://img.shields.io/docker/automated/petk/postfix.svg)](https://hub.docker.com/r/petk/postfix/) [![MIT License](https://img.shields.io/github/license/petk/docker-postfix.svg "MIT License")](https://github.com/petk/docker-postfix/blob/master/LICENSE) [![Image size](https://images.microbadger.com/badges/image/petk/postfix.svg)](https://microbadger.com/images/petk/postfix "Image size")
 
 Docker Image with Postfix Mail Server
 
