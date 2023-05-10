@@ -1,8 +1,8 @@
 #!/bin/bash
 
-docker pull petk/postfix || exit 1
+docker build -t petk/test:postfix-cmd -f ../../Dockerfile ../../ || exit 1
 
 i=0
-time dgoss run petk/postfix || ((i++))
+time dgoss run -it petk/test:postfix-cmd || ((i++))
 
 exit $i
