@@ -1,28 +1,24 @@
-# http://editorconfig.org
+# https://editorconfig.org/
 
 root = true
 
 [*]
-end_of_line = lf
-charset = utf-8
 trim_trailing_whitespace = true
-insert_final_newline = true
+insert_final_newline     = true
+indent_style             = space
+end_of_line              = lf
+indent_size              = 4
+tab_width                = 4
+charset                  = utf-8
 
-[*.md]
+[{*.{md,sh,yaml,yml},docker-entrypoint}]
+indent_size              = 2
+
+[Makefile]
+indent_style             = tab
+
+[*.patch]
 trim_trailing_whitespace = false
 
-[{docker-entrypoint}]
-indent_style = space
-indent_size = 2
-
-[{Makefile}]
-indent_style = tab
-indent_size = 4
-
-[{Dockerfile}]
-indent_style = space
-indent_size = 4
-
-[*.yml]
-indent_style = space
-indent_size = 2
+[COMMIT_EDITMSG]
+max_line_length          = 80
